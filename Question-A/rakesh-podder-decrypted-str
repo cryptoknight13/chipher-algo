@@ -1,0 +1,12 @@
+Simple ASCII text for basic input.
+1234567890
+!@#$%^&*()_+-=[]{}|;:',.<>/?~
+Üñîçødé characters with accents: é, ñ, ö, ü.
+This is a longer block of text that is intended to test the encryption and decryption 
+processes across multiple lines of input. It includes various punctuation marks and 
+special characters to enhance the complexity of the test case. Testing how encryption 
+algorithms handle different types of text input is crucial for ensuring robustness.
+0101010101 1010101010 11110000 00001111
+TWFueSBkYXRhIGVuY3J5cHRpb24gYW5kIGRlY3J5cHRpb24gdGVzdHM=
+{"name": "John Doe", "age": 30, "city": "New York"}
+<root><child name="value"/></root>

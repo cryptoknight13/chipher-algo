@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+
+# Define the activities and their corresponding times in milliseconds
+activities = ['RSA Key Generation', 'RSA Encryption', 'RSA Decryption']
+times = [1210694, 3036, 22956]  # in milliseconds
+
+# Creating the bar chart
+plt.figure(figsize=(10, 6))
+plt.bar(activities, times, color='blue')
+
+# Adding title and labels
+plt.title('RSA Encryption and Decryption Times')
+plt.xlabel('Activity')
+plt.ylabel('Time (ms)')
+plt.yscale('log')  # Using a logarithmic scale due to large differences in times
+
+# Show grid lines for better readability
+plt.grid(True, which="both", ls="--", linewidth=0.5)
+
+# Display the plot
+plt.show()

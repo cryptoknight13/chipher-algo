@@ -1,0 +1,204 @@
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./encrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Encryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEMNOPQ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01001101 01001110 01001111 01010000 01010001 
+Key 2: ABCDEUVXYZ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01010101 01010110 01011000 01011001 01011010 
+Binary File Name: SampleJPGImage_500kbmb.jpg
+Read 512017 bytes from file: 'SampleJPGImage_500kbmb.jpg'
+************ Encryption is done ************
+File: 'rakesh-podder-encrypted-str -> Bytes: 512020
+------------------------ Time Report --------------------------------
+Vigenere Cipher Encryption: 10 ms.
+Double Transposition Encryption: 99 ms.
+Entire Encryption Process: 109 ms.
+-----------------------------------------------------------------------
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./decrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Decryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEUVXYZ
+Key 2: ABCDEUVXYZ
+Read 512020 bytes from ciphertext 'rakesh-podder-encrypted-str'
+************ Decryption is done ************
+File: 'rakesh-podder-decrypted-str -> Bytes: 512017
+------------------------ Time Report --------------------------------
+Vigenere Cipher Decryption: 10 ms.
+Double Transposition Decryption: 55 ms.
+Entire Decryption Process: 65 ms.
+-----------------------------------------------------------------------
+
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./encrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Encryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEMNOPQ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01001101 01001110 01001111 01010000 01010001 
+Key 2: ABCDEUVXYZ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01010101 01010110 01011000 01011001 01011010 
+Binary File Name: SampleJPGImage_200kbmb.jpg
+Read 206993 bytes from file: 'SampleJPGImage_200kbmb.jpg'
+************ Encryption is done ************
+File: 'rakesh-podder-encrypted-str -> Bytes: 207000
+------------------------ Time Report --------------------------------
+Vigenere Cipher Encryption: 3 ms.
+Double Transposition Encryption: 42 ms.
+Entire Encryption Process: 46 ms.
+-----------------------------------------------------------------------
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./decrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Decryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEUVXYZ
+Key 2: ABCDEUVXYZ
+Read 207000 bytes from ciphertext 'rakesh-podder-encrypted-str'
+************ Decryption is done ************
+File: 'rakesh-podder-decrypted-str -> Bytes: 206993
+------------------------ Time Report --------------------------------
+Vigenere Cipher Decryption: 5 ms.
+Double Transposition Decryption: 20 ms.
+Entire Decryption Process: 25 ms.
+-----------------------------------------------------------------------
+
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./encrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Encryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEMNOPQ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01001101 01001110 01001111 01010000 01010001 
+Key 2: ABCDEUVXYZ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01010101 01010110 01011000 01011001 01011010 
+Binary File Name: SampleJPGImage_500kbmb.jpg
+Read 512017 bytes from file: 'SampleJPGImage_500kbmb.jpg'
+************ Encryption is done ************
+File: 'rakesh-podder-encrypted-str -> Bytes: 512020
+------------------------ Time Report --------------------------------
+Vigenere Cipher Encryption: 10 ms.
+Double Transposition Encryption: 95 ms.
+Entire Encryption Process: 106 ms.
+-----------------------------------------------------------------------
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./decrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Decryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEUVXYZ
+Key 2: ABCDEUVXYZ
+Read 512020 bytes from ciphertext 'rakesh-podder-encrypted-str'
+************ Decryption is done ************
+File: 'rakesh-podder-decrypted-str -> Bytes: 512017
+------------------------ Time Report --------------------------------
+Vigenere Cipher Decryption: 9 ms.
+Double Transposition Decryption: 57 ms.
+Entire Decryption Process: 66 ms.
+-----------------------------------------------------------------------
+
+
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./encrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Encryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEMNOPQ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01001101 01001110 01001111 01010000 01010001 
+Key 2: ABCDEUVXYZ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01010101 01010110 01011000 01011001 01011010 
+Binary File Name: SampleJPGImage_1mbmb.jpg
+Read 1033414 bytes from file: 'SampleJPGImage_1mbmb.jpg'
+************ Encryption is done ************
+File: 'rakesh-podder-encrypted-str -> Bytes: 1033420
+------------------------ Time Report --------------------------------
+Vigenere Cipher Encryption: 21 ms.
+Double Transposition Encryption: 201 ms.
+Entire Encryption Process: 222 ms.
+-----------------------------------------------------------------------
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./decrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Decryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEUVXYZ
+Key 2: ABCDEUVXYZ
+Read 1033420 bytes from ciphertext 'rakesh-podder-encrypted-str'
+************ Decryption is done ************
+File: 'rakesh-podder-decrypted-str -> Bytes: 1033414
+------------------------ Time Report --------------------------------
+Vigenere Cipher Decryption: 18 ms.
+Double Transposition Decryption: 98 ms.
+Entire Decryption Process: 117 ms.
+-----------------------------------------------------------------------
+
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./encrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Encryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEMNOPQ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01001101 01001110 01001111 01010000 01010001 
+Key 2: ABCDEUVXYZ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01010101 01010110 01011000 01011001 01011010 
+Binary File Name: SampleJPGImage_2mbmb.jpg
+Read 2101546 bytes from file: 'SampleJPGImage_2mbmb.jpg'
+************ Encryption is done ************
+File: 'rakesh-podder-encrypted-str -> Bytes: 2101550
+------------------------ Time Report --------------------------------
+Vigenere Cipher Encryption: 41 ms.
+Double Transposition Encryption: 375 ms.
+Entire Encryption Process: 416 ms.
+-----------------------------------------------------------------------
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./decrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Decryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEUVXYZ
+Key 2: ABCDEUVXYZ
+Read 2101550 bytes from ciphertext 'rakesh-podder-encrypted-str'
+************ Decryption is done ************
+File: 'rakesh-podder-decrypted-str -> Bytes: 2101546
+------------------------ Time Report --------------------------------
+Vigenere Cipher Decryption: 39 ms.
+Double Transposition Decryption: 194 ms.
+Entire Decryption Process: 233 ms.
+-----------------------------------------------------------------------
+
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./encrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Encryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEMNOPQ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01001101 01001110 01001111 01010000 01010001 
+Key 2: ABCDEUVXYZ
+Bit representation of the unique key:
+01000001 01000010 01000011 01000100 01000101 01010101 01010110 01011000 01011001 01011010 
+Binary File Name: SampleJPGImage_5mbmb.jpg
+Read 5266467 bytes from file: 'SampleJPGImage_5mbmb.jpg'
+************ Encryption is done ************
+File: 'rakesh-podder-encrypted-str -> Bytes: 5266470
+------------------------ Time Report --------------------------------
+Vigenere Cipher Encryption: 94 ms.
+Double Transposition Encryption: 1032 ms.
+Entire Encryption Process: 1127 ms.
+-----------------------------------------------------------------------
+tokyo:~/Desktop/Project-2/Project2/Question-A/Experiments$ ./decrypt abcdemnopq abcdeuvxyz
+------------------------------------------------
+************ Decryption in Progress ************
+------------------------------------------------
+Key 1: ABCDEUVXYZ
+Key 2: ABCDEUVXYZ
+Read 5266470 bytes from ciphertext 'rakesh-podder-encrypted-str'
+************ Decryption is done ************
+File: 'rakesh-podder-decrypted-str -> Bytes: 5266467
+------------------------ Time Report --------------------------------
+Vigenere Cipher Decryption: 91 ms.
+Double Transposition Decryption: 454 ms.
+Entire Decryption Process: 546 ms.
+-----------------------------------------------------------------------

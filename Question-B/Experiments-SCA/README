@@ -1,0 +1,35 @@
+*************************************************
+                    CS-566: Project 2
+         This is to Run Part B of Project 2
+*************************************************
+
+Instruction to execute:
+-------------------------------------------------
+1. Complie the files
+$ make all
+-------------------------------------------------
+Execution:
+-------------------------------------------------
+2. RSA Key Genreration:
+-------------------------------------------------
+$ ./KeyGeneration
+
+Output file: 1. rakesh-podder.privatekey
+             2. rakesh-podder.publickey
+-------------------------------------------------
+3. To Encrypt:
+
+$ ./asymmetrickey_encr <public_key_file> <file_to_encrypt>
+
+Example: ./asymmetrickey_encr rakesh-podder.publickey plaintext.txt
+
+Output file: 'rakesh-podder.ciphertext'.
+-------------------------------------------------
+4. To Decrypt:
+
+$ ./asymmetrickey_decr <private_key_file> <file_to_decrypt>
+
+Example: ./asymmetrickey_decr rakesh-podder.privatekey rakesh-podder.ciphertext
+
+Output File: 'rakesh-podder.plaintext'
+--------------------------------------------------
